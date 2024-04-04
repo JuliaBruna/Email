@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btnEnviar = (Button) findViewById(R.id.btnEnviar); // Criação do botão de enviar
-        btnEnviar.setOnClickListener(new View.OnClickListener() { // Definição da ação do click do botã
+        btnEnviar.setOnClickListener(new View.OnClickListener() { // Definição da ação do click do botão
             @Override
 
             // Obtendo dados digitados pelo usuário
